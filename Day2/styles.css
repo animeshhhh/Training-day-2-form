@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Slab&family=Ubuntu&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+ .form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.1em solid #333;
+    height: 70vh;
+    width: 55%;
+    /* border: none; */
+    padding: 10px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
+ }
+
+.registration-heading{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    background-color: white;
+    /* box-shadow: 0 0 5px 5px rgb(217, 217, 217); */
+}
+
+.element-container{
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif; */
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size:20px;
+}
+
+.form-btn{
+    background: #0066A2;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 40px;
+    width: 120px;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Roboto Slab', serif;
+    text-shadow: none;
+}
+
+.form-btn:hover{
+    background: #0b81c5;
+}
+.form-btn-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.text1, select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+.email-input1, select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+.psw1, select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+input[type=checkbox], select {
+    padding-bottom: 10px;
+} 
+.days-container {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.date-container{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}.qualification-div{
+    /* background-color: #0066A2; */
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/********************************/
+
+
+.main-container-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+} 
+
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1em solid #333;
+    height: 50vh;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif; */
+    font-family: 'Ubuntu', sans-serif; 
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+} 
+
+.login-heading{
+   
+    font-size: 40px;
+    margin-bottom: 15px;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    background-color: white;
+}
+.psw2{
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif; */
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.login-btn{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #0066A2;
+   color: white;
+   border-style: outset;
+   border-color: #0066A2;
+   height: 40px;
+   width: 405px;
+   font-family: 'Roboto Slab', serif;   
+   text-shadow: none;
+}
+.email-heading{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size:20px;
+}
+
+.pwd-heading{
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif; */
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size:20px;
+}
+
+.psw2, select {
+    width: 130%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+.login-email, select {
+    width: 130%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .login-btn:hover{
+    background: #0b81c5;
+}
+
+.no-account{
+    font-size: 15px;
+}

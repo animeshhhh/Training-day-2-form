@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="form-container">
+        <form>
+          <h1 class="registration-heading">Register Here</h1>
+          <table class="element-container">
+            <tr>
+              <td>First Name:</td>
+              <td>
+                <input
+                  type="text"
+                  placeholder="Please Enter Your First Name"
+                  class="text1"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Last Name:</td>
+              <td>
+                <input
+                  type="text"
+                  placeholder="Please Enter Your Last Name"
+                  class="text1"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Email:</td>
+              <td>
+                <input
+                  type="email"
+                  required
+                  placeholder="Please Enter Your Email"
+                  class="email-input1"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Password:</td>
+              <td>
+                <input
+                  type="password"
+                  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                  title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                  placeholder="Please Enter Your Password"
+                  class="psw1"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>DOB:</td>
+              <td><input type="date" required class="date-container"/></td>
+            </tr>
+            <tr>
+              <td>Days :</td>
+              <td>
+                <select class="days-container">
+                  <option value="Monday">Monday</option>
+                  <option value="Tuesday">Tuesday</option>
+                  <option value="Wednesday">Wednesday</option>
+                  <option value="Thursday">Thursday</option>
+                  <option value="Friday">Friday</option>
+                </select>
+              </td>
+              
+            </tr>
+            <tr>
+              
+              <td class="qualification-heading">Qualification:&nbsp;</td>
+              
+              <td>
+                <div class="qualification-div">
+                <input
+                  type="radio"
+                  id="undergraduate"
+                  name="qualification"
+                  value="Undergraduate"
+                />
+                
+                <label for="Undergraduate">Undergraduate&nbsp;&nbsp;</label>
+                <input
+                  type="radio"
+                  id="postgraduate"
+                  name="qualification"
+                  value="postgraduate"
+                />
+                <label for="postgraduate">Postgraduate</label>
+                </div>
+              </td>
+            </div>
+           </tr>
+            <tr>
+              <td class="languages-heading">Languages :</td>
+              <td>
+                <input
+                  type="checkbox"
+                  id="language0"
+                  name="language0"
+                  value="C"
+                />
+                <label for="language0"> C &nbsp;</label>
+
+                <input
+                  type="checkbox"
+                  id="language1"
+                  name="language1"
+                  value="C++"
+                />
+                <label for="language1"> C++ &nbsp;&nbsp;</label>
+
+                <input
+                  type="checkbox"
+                  id="language2"
+                  name="language2"
+                  value="Java"
+                />
+                <label for="language2"> Java&nbsp;</label>
+
+                <input
+                  type="checkbox"
+                  id="language3"
+                  name="language3"
+                  value="Java"
+                />
+                <label for="language3"> Python</label>
+              </td>
+            </tr>
+          </table>
+          <div class="form-btn-container">
+        <button type="submit" class="form-btn">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
